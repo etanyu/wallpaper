@@ -31,7 +31,7 @@ public class Wallpaper {
      *
      * {"en-US", "zh-CN", "ja-JP", "en-IN", "pt-BR", "fr-FR", "de-DE", "en-CA", "en-GB", "it-IT", "es-ES", "fr-CA"};
      */
-    private static String[] regions =  {"en-US", "zh-CN"};
+    private static String[] regions =  {"en-US", "zh-CN", "ja-JP", "de-DE", "en-IN", "en-GB", "fr-FR"};
     public static void main(String[] args) throws IOException {
         for (String region : regions) {
             String bingApi = String.format(BING_API_TEMPLATE, region);
